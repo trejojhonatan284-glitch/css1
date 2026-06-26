@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.cabecera {
+  height: 90px;
+  background-color: #2c2c2c;
+  color: white;
+  position: relative;
+  padding: 20px;
+}
+
+.cabecera h1 {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 32px;
+}
+
+.menu {
+  position: absolute;
+  top: 35px;
+  left: 520px;
+  width: 700px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 35px;
+  font-size: 20px;
+}
+
+.hero {
+  position: relative;
+  height: 260px;
+  padding: 40px;
+  background-color: #f4e8d8;
+}
+
+.hero h2 {
+  font-size: 42px;
+}
+
+.hero p {position: relative;
+  position: absolute;
+  top: 190px;
+  left: 40px;
+  width: 900px;
+  font-size: 24px;
+}
+
+button {
+  position: absolute;
+  top: 260px;
+  left: 40px;
+  padding: 15px 30px;
+  font-size: 20px;
+}
